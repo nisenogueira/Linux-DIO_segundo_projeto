@@ -5,7 +5,7 @@ echo "Atualizando o servidor..."
 apt-get update
 apt-get upgrade -y
 
-acho "Instalando  aplicações..."
+echo "Instalando  aplicações..."
 apt-get install apache2 unzip -y
 apt-get install unzip -y
 
@@ -16,5 +16,6 @@ unzip main.zip
 cd linux-site-dio-main
 cp -R * /var/www/html/
 
+echo "Script finalizado com sucesso!"
 
 
